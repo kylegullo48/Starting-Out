@@ -7,3 +7,11 @@ e = 2.7182818284
 
 birthday = 'Happy birthday %s, now you are %d you should know some math. Recite after me, π is equal to %1.5f and e is %1.6f' %(name, age, π, e)
 print (birthday)
+
+#this is a different way to get the same result:
+
+alternate_birthday = 'Happy birthday {0:s}, now you are {1:d} years old, you should know some math. Recite after me, π is equal to {2:1.5f} and e is {3:1.6f}' .format('Peter', 42, 3.14159265, 2.7182818284)
+print (alternate_birthday)
+
+#using the % operator to format a string seems prefereable to me, because you could assign any new argument to the variables without having to change the string-formatting procedure. 
+
