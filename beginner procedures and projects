@@ -1,3 +1,8 @@
+#this file is not super easy to read, because I haven't yet tied up Python with Git. This is just a cut & paste list of procedures that I've been working on, to keep a record of where I am at. The color coding in the IDLE program that comes bundled with the Python Interpreter is useful. 
+
+#I'm learning Python 3.6.4
+#What follows are tests I have run to check that I understand basic Python syntax
+
 #format a string using different data types: one string, one integer and one float as arguments
 
 name = 'Peter'
