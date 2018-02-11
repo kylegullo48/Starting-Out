@@ -15,3 +15,39 @@ print (alternate_birthday)
 
 #using the % operator to format a string seems prefereable to me, because you could assign any new argument to the variables without having to change the string-formatting procedure. 
 
+#list practice
+
+myList = [8, 9, 'blah', 4, 7, 'foo']
+print (myList)
+print (myList [2])
+print (myList [-1])
+
+myList2 = myList[1:5]
+print (myList2)
+
+myList [1]=20
+print (myList)
+
+myList.append ('frip')
+print (myList)
+
+del myList [5]
+print (myList)
+
+
+#dictionary practice
+
+myDict = {'StringIsOkHere':3.4151, 2.7:'e is second place', 9:'stringkey', 7.6:7}
+print (myDict)
+
+#print a selected item from myDict
+print (myDict [2.7])
+print (myDict ['StringIsOkHere'])
+
+#modify myDict
+myDict [9]='numbers'
+myDict ['addon']='nother one string'
+del myDict ['StringIsOkHere']
+print (myDict)
+
+
