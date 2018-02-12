@@ -18,5 +18,5 @@ Covered so far:
 - Lists, tuples, dictionaries
 - Interactive procedures
 - Control flow tools:  
-- - conditions, for loop and if statements
-- - while loop, break, continue
+  - conditions, for loop and if statements
+  - while loop, break, continue
