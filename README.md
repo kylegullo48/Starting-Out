@@ -17,3 +17,6 @@ Covered so far:
 - Type casting
 - Lists, tuples, dictionaries
 - interactive procedures
+- control flow tools:  
+- - conditions, for loop and if statements
+- - while loop, break, continue
