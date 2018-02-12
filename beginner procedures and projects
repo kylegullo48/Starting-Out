@@ -72,3 +72,21 @@ Will it keep the formatting.''')
 #escape characters
 print ('Hello \t world')
 print ('maybe I just \n want to have \n a load of things \n show on new lines')
+
+
+#Control flow tools
+
+userInput = input ('Enter 1 or 2:')
+
+if userInput == '1':
+    print ('oh look you chose 1')
+    print ('this is not an alternative')
+elif userInput == '2':
+    print ('heh is that really a 2, I don\'t think so, it\'s not an integer')
+    print ('it\'s like a braindead cond clause')
+else:
+    print ('You did not enter a valid number.')
+
+
+
+
