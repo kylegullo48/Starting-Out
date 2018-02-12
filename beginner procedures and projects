@@ -96,6 +96,20 @@ flavours = ["chocolate", "strawberry", "mango", "banana", "cookies"]
 for add_flavour in flavours:
     print (icecream)
     icecream = add_flavour
+    
+#this includes an if clause inside a for loop
+#took a while to get the order exactly right
+
+icecream = "vanilla"
+
+flavours = ["chocolate", "strawberry", "mango", "banana", "cookies"]
+
+for add_flavour in flavours:
+    print (icecream)
+    icecream = add_flavour
+    if icecream == "banana":
+        print ("with mango or with cherry")
+
 
 #range function, useful inclusion in for loops:
 
