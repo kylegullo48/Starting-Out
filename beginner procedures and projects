@@ -87,6 +87,13 @@ elif userInput == '2':
 else:
     print ('You did not enter a valid number.')
 
+#range function, useful inclusion in for loops:
 
+for i in range (5):
+    print (i)
+
+for p in range (3, 27, 4):
+    print (p)
+    
 
 
