@@ -86,6 +86,16 @@ elif userInput == '2':
     print ('it\'s like a braindead cond clause')
 else:
     print ('You did not enter a valid number.')
+    
+#generated my own task, to check I understood the for loop: use a for loop with a list
+
+icecream = "vanilla"
+
+flavours = ["chocolate", "strawberry", "mango", "banana", "cookies"]
+
+for add_flavour in flavours:
+    print (icecream)
+    icecream = add_flavour
 
 #range function, useful inclusion in for loops:
 
