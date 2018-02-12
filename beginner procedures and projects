@@ -119,5 +119,14 @@ for i in range (5):
 for p in range (3, 27, 4):
     print (p)
     
+#try and except statement, for errors
+
+try:
+    answer = 12/0
+    print (answer)
+except:
+    print ('you can\'t do that')
+
+
 
 
