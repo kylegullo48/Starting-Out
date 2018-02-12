@@ -55,4 +55,20 @@ myDict ['addon']='nother one string'
 del myDict ['StringIsOkHere']
 print (myDict)
 
-#making interactive programs is up next
+#making interactive programs:
+
+#using input for interactive procedures
+
+myName = input ("Please enter your name:")
+myAge = input ("What about your age:")
+print ("Hello World, my name is", myName, "and I am", myAge, "years old.")
+
+#testing triple quote
+print (''' so how does this work?
+If I write text
+on different lines,
+Will it keep the formatting.''')
+
+#escape characters
+print ('Hello \t world')
+print ('maybe I just \n want to have \n a load of things \n show on new lines')
