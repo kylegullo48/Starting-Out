@@ -20,3 +20,4 @@ Covered so far:
 - Control flow tools:  
   - conditions, for loop and if statements
   - while loop, break, continue
+  - try, except and errortypes
