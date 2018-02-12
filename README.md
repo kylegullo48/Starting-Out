@@ -16,7 +16,7 @@ Covered so far:
 - Data types (integers, floats, strings)
 - Type casting
 - Lists, tuples, dictionaries
-- interactive procedures
+- Interactive procedures
 - control flow tools:  
 - - conditions, for loop and if statements
 - - while loop, break, continue
