@@ -25,4 +25,4 @@ Covered so far:
 - Variable scope
 <br></br>
 
-The second repository file is named IDLEuploadtest. Uploading a file direct from the IDLE program retains some of the color coding and the .py file extension. This makes reading and changing the Python code much easier. 
+The second repository file is named IDLEuploadtest. Uploading a file direct from the IDLE program retains some of the color coding and the .py file extension. This makes reading and changing the Python code in Github much easier. 
