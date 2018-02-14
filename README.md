@@ -2,7 +2,7 @@
 
 My first Python projects
 
-Testing out Github for the first time. This is where I'll explain experiments. 
+Testing out Github for the first time while I am learning Python. This is where I'll explain experiments. 
 
 About me: LSE graduate with a China specialisation, initially interested in economics, stats, pure math. I don't know where this will take me but I'm hoping to get employment coding Python for statistical analysis – or something like that. 
 
@@ -21,3 +21,9 @@ Covered so far:
   - conditions, for loop and if statements
   - while loop, break, continue
   - try, except and errortypes
+- Functions
+- Variable scope
+
+
+The second repository file is named IDLEuploadtest. Uploading a file direct from the IDLE program retains some of the color coding. 
+This makes reading the Python code easier. 
