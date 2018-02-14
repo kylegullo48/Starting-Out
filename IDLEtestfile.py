@@ -1,7 +1,7 @@
 '''
 this is a random .py file that I was using to test some simple functions
-testing an upload to git, to see if the color coding in IDLE is retained 
-it turns out that some of it is, but not all
+I'm using it to test an upload to git, to see if the color coding in IDLE is retained 
+it turns out that some of it is - enough to be useful
 '''
 
 def primeOrNot (numberToCheck):
