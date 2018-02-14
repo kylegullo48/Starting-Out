@@ -28,4 +28,7 @@ Covered so far:
   - creating your own module
 <br></br>
 
-The second repository file is named IDLEuploadtest. Uploading a file direct from the IDLE program retains some of the color coding and the .py file extension. This makes reading and changing the Python code in Github much easier. 
+IDLEuploadtest is a file uploaded from the IDLE program. I uploaded it to see if git retains some of the color coding and the .py file extension. It does. This makes reading and changing the Python code in Github much easier. 
+
+Beginner procedures2 is my second set of simple exercises. It includes:
+- opening and reading an external .txt file
