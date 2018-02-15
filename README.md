@@ -32,3 +32,4 @@ IDLEuploadtest is a file uploaded from the IDLE program. I uploaded it to see if
 
 Beginner procedures2 is my second set of simple exercises. It includes:
 - opening and reading an external .txt file
+- read and write with buffering control on external file
