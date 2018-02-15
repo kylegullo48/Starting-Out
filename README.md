@@ -29,3 +29,4 @@ Beginner procedures2 is my second set of simple exercises. It includes:
 - opening and reading an external .txt file
 - read and write with buffering control on external file
 - adapt buffering procedure to output a binary file
+- rename and remove
