@@ -61,3 +61,22 @@ inputFile.close ()
 outputFile.close ()
 
 
+
+
+#buffering procedure adapted to read and create an external binary file:
+
+inputFile = open ('myWallaby.jpeg', 'rb')
+outputFile = open ('myWallabyOutput.jpeg', 'wb')
+
+
+#read function specifies the buffer size, msg reads 10 bytes at a time:
+
+msg = inputFile.read (10)
+
+while len (msg):
+    outputFile.write (msg)  
+    msg = inputFile.read(10)
+
+inputFile.close ()
+outputFile.close ()
+
