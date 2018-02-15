@@ -80,3 +80,16 @@ while len (msg):
 inputFile.close ()
 outputFile.close ()
 
+
+
+#rename
+
+import os as os
+os.rename ('daysofweek', 'weekdays')
+
+#remove only removes one file at a time
+
+os.remove ('test.py')
+
+
+
