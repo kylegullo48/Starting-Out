@@ -33,3 +33,31 @@ for line in h:
 h.close ()
 
 
+
+
+#buffering procedure:
+
+inputFile = open ('daysofweek', 'r')
+outputFile = open ('daysoutput', 'w')
+
+#read function specifies the buffer size, msg reads 4 bytes at a time:
+
+msg = inputFile.read (4)
+
+#following procedure loops through the file 4 bytes at a time
+#while is conditional on msg having length, it stops when msg has no bytes
+
+while len (msg):
+    outputFile.write (msg + '\n')  #newline to show in the printout that the 4 byte buffering worked
+    msg = inputFile.read(10)
+
+outputFile.close ()
+outputFile = open ('daysoutput', 'r+')
+
+for line in outputFile:
+    print (line, end = '')
+
+inputFile.close ()
+outputFile.close ()
+
+
