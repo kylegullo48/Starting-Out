@@ -10,6 +10,6 @@ class Book:
         print ('creating a book file')
 
     def __str__ (self):
-        return "Book Title: %s, Author: %s, Year Published: %d" %(self.booktitle, self.bookauthor, self.yearpublished)
+        return "Book Title: %s, Author: %s, Year Published: %d" %(self.title, self.author, self.year)
 
     
