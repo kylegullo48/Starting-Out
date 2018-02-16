@@ -16,7 +16,7 @@ class Book:     #self is a special parameter, must be included when initializing
 
 #to create an object in the class:
     
-Book1 = Book ('Foundation', 'Asimov', 1946)
+Book1 = Book ('Foundation', 'Asimov', 1946)                         #Python includes the hidden self parameter
 #The program returns 'creating a book file'
 
 print (Book1)
