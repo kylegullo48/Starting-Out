@@ -1,8 +1,11 @@
+#creating a class (a class funcions as a template for an object)
 
 class Book:
-    def __init__(self, pBooktitle, pBookauthor, pYearpublished):
-        self.title = pBooktitle
-        self.author = pBookauthor
+    #self is a special parameter, must be included when initializing variables inside a class
+    #initializing the instance variables 
+    def __init__(self, pBooktitle, pBookauthor, pYearpublished):    
+        self.title = pBooktitle                                     #these are the instance variables
+        self.author = pBookauthor                                   #always prefix instance variables with the self. keyword
         self.year = pYearpublished
         print ('creating a book file')
 
