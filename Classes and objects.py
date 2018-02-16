@@ -14,4 +14,11 @@ class Book:     #self is a special parameter, must be included when initializing
     def __str__ (self):
         return "Book Title: %s, Author: %s, Year Published: %d" %(self.title, self.author, self.year)
 
+#to create an object in the class:
     
+Book1 = Book ('Foundation', 'Asimov', 1946)
+#The program returns 'creating a book file'
+
+print (Book1)
+#The program returns 'Book Title: Foundation, Author: Asimov, Year Published: 1946'
+ 
