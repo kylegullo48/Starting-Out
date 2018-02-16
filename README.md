@@ -32,4 +32,4 @@ Beginner procedures2 is my second set of simple exercises. It includes:
 - rename and remove
 <br></br>
 
-The Classes and objects file builds some simple object oriented programming procedures
+The Classes and objects uses some of the procedures and definitions learned so far to build simple object oriented programming procedures. 
