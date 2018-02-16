@@ -2,6 +2,7 @@
 
 class Book:
     #self is a special parameter, must be included when initializing variables inside a class
+    #variables in a class are referred to as instance variables
     #initializing the instance variables 
     def __init__(self, pBooktitle, pBookauthor, pYearpublished):    
         self.title = pBooktitle                                     #these are the instance variables
