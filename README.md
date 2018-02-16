@@ -32,4 +32,6 @@ Beginner procedures2 is my second set of simple exercises. It includes:
 - rename and remove
 <br></br>
 
-The Classes and objects file uses some of the procedures and definitions learned so far to build simple structure with object oriented programming methods. 
+The Classes and objects file uses some of the procedures and definitions learned so far to build simple structure with object oriented programming methods. It includes:
+- defining a class and instantiating objects in the class
+- methods
