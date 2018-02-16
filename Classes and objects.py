@@ -1,4 +1,4 @@
-#creating a class (a class funcions as a template for an object)
+#creating a class (a class functions as a template for an object)
 
 class Book:     #self is a special parameter, must be included when initializing variables inside a class
                 #variables in a class are referred to as instance variables
