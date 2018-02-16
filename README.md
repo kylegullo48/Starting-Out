@@ -34,4 +34,4 @@ Beginner procedures2 is my second set of simple exercises. It includes:
 
 The Classes and objects file uses some of the procedures and definitions learned so far to build simple structure with object oriented programming methods. It includes:
 - defining a class and instantiating objects in the class
-- methods
+- methods (in-class procedures)
