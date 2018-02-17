@@ -38,3 +38,4 @@ The Classes and objects file uses some of the procedures and definitions learned
 - properties 
 - name mangling
 - single instances and the self parameter
+- instance, class and static methods
