@@ -1,7 +1,7 @@
 #creating a class (a class functions as a template for an object)
 
-class Book:     #self is a special parameter, must be included when initializing variables inside a class
-                #variables in a class are referred to as instance variables
+class Book:     #self is a special parameter, used to access a single instance of a class & must be included when initializing instance variables local to a method inside a class
+                #class variables are shared by all instances of the class
     
     #initializing the instance variables: 
     
