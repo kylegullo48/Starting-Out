@@ -6,13 +6,13 @@ class Book:     #self is a special parameter, must be included when initializing
     #initializing the instance variables: 
     
     def __init__(self, pBooktitle, pBookauthor, pYearpublished):    
-        self.title = pBooktitle                                     #these are the instance variables
-        self.author = pBookauthor                                   #always prefix instance variables with the self. keyword
-        self.year = pYearpublished
+        self._title = pBooktitle                                    #always prefix instance variables with the self. keyword 
+        self.author = pBookauthor                                   #these are the instance variables. The underscore before title is a convention.
+        self.year = pYearpublished                                  #It warns coders not to directly access the variable because it has associated limiting properties.
         print ('creating a book file')
 
     def __str__ (self):
-        return "Book Title: %s, Author: %s, Year Published: %d" %(self.title, self.author, self.year)
+        return "Book Title: %s, Author: %s, Year Published: %d" %(self._title, self.author, self.year)
       
     #a procedure insisde a class is referred to as a method
     def calculateBookAge (self):
@@ -35,6 +35,25 @@ Book1.calculateBookAge ()                                           #don't forge
 #To update any of the variables:
 Book1.year = 1950
 Book1.title = 'Foundation and Empire' 
+
+
+#Adding properties:                                                 #Here I am pre-defining argument options for an instance variable
+  
+    @property                                                       #@property assigns a method to self.title (hidden procedure) 
+    def title (self):
+        print ('Fetching value')
+        return self._title
+
+    @title.setter                                                   #setter method: .setter is a pre-defined attribute to the property object
+    def title (self, knownBook):
+        if knownBook == 'Foundation' or knownBook == 'The Martian Way' or knownBook == 'Caves of Steel':
+            self._title = knownBook
+        else:
+            print ('Are you sure he wrote that book? No changes made')
+
+
+
+
 
         
         
