@@ -40,7 +40,7 @@ Book1.title = 'Foundation and Empire'
 #Adding properties:                                                 #Here I am pre-defining argument options for an instance variable
   
     @property                                                       #@property assigns a method to self.title (hidden procedure) 
-    def title (self):
+    def title (self):                                               #NB: I don't totally get what is going on here yet. 
         print ('Fetching value')
         return self._title
 
