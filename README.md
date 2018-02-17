@@ -4,7 +4,7 @@ My first Python procedures
 
 The first repository file I created is 'beginner procedures and projects'. Here I demonstrate simple code exercises that I'm writing to get familiar with Python procedures. Many of these exercises are from the Book Learn Python in one day: [Python for beginners, with hands-on projects.](https://www.amazon.com/Learn-Python-One-Well-Hands/dp/1546488332/ref=sr_1_3?ie=UTF8&qid=1518364938&sr=8-3&keywords=Learn+Python+in+one+day&dpID=51iNedkheKL&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch)
 
-Covered so far:
+Beginner procedures1 covers:
 - Variables and operators
 - Assignment operators
 - Assigning values to variables
