@@ -37,3 +37,4 @@ The Classes and objects file uses some of the procedures and definitions learned
 - methods (in-class procedures)
 - properties 
 - name mangling
+- single instances and the self parameter
