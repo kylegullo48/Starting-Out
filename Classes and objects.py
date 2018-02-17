@@ -52,9 +52,53 @@ Book1.title = 'Foundation and Empire'
             print ('Are you sure he wrote that book? No changes made')
 
 
+#instance, class and static methods compared:
 
 
+class MethodDemo:
+    a = 10                                                            #assign 10 to class variable a
 
+    def __init__(self, pNum):
+        self.num = pNum
+        print ('new instance variable created with num = ', self.num)
+        
+    def instanceMethod (self):                                        #instance methods work with specific class instances and access them through the self parameter
+         self.sum = 10 - self.num
+         print (self.sum)
+
+    @classmethod                                                      #class methods cannot access single class instances
+    def classM (cls):                                                 #they have access to the class variables, via cls
+        print ('Class Method. cls.a = ', cls.a)
+
+    @staticmethod                                                     #static methods cannot access class instances or class variables
+    def staticM ():                                                   #they work like any function but belong to the class namespace
+        print ('Static method demo')
+
+    
+#creating the class instances
+md1 = MethodDemo (3)
+md2 = MethodDemo (4)
+
+#two different ways to call each method
+MethodDemo.instanceMethod (md2)
+md1.instanceMethod ()
+
+MethodDemo.classM ()
+md2.classM ()
+
+MethodDemo.staticM ()
+md2.staticM ()
+
+#The program returns:
+new instance variable created with num =  3
+new instance variable created with num =  4
+6
+7
+Class Method. cls.a =  10
+Class Method. cls.a =  10
+Static method demo
+
+#Many programmers use only instance methods, however class and static methods can help show your intent regarding the class design
         
         
  
