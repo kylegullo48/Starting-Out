@@ -39,3 +39,5 @@ The Classes and objects file uses some of the procedures and definitions learned
 - name mangling
 - single instances and the self parameter
 - instance, class and static methods
+
+Codeblocks uses a class inheritance demo to practice better presentation of Python code in Github
