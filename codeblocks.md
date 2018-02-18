@@ -2,7 +2,7 @@ I am using this file to learn how to import multiple sections of code into a git
 
 To do that, I have to create and highlight code blocks in markdown. There's a help page that shows you how to do it [here](https://help.github.com/articles/creating-and-highlighting-code-blocks/). I'm writing in a Markdown file on my desktop, then uploading to my Git repository. 
 
-Here's a demo of how inheritance works in Python. It's taken from the book [Learn Python in one day](https://www.amazon.com/Python-Beginners-Hands-Project-Project-ebook/dp/B00R9JPDN4). 
+For my purposes, I'm using a demo of how inheritance works in Python. It's taken from the book [Learn Python in one day](https://www.amazon.com/Python-Beginners-Hands-Project-Project-ebook/dp/B00R9JPDN4). 
 
 I want to create a new class which is the same as an existing class – its parent – with some modifications. 
 Here's the parent class. You'll also hear this called a super class, or base class: 
@@ -31,29 +31,9 @@ The following methods also belong to the Staff class. __str__ is a special metho
         self.pay = int (hours)*int (hourlyRate)
         return self.pay
 ```        
-
-
-The finished program looks like this:
+Properties set some limitations on the parameters for the instance variable \_position: 
 
 ```Python
-class Staff:
-    def __init__ (self, pPosition, pName, pPay):
-        self._position = pPosition
-        self.name = pName
-        self.pay = pPay
-        print ('Creating Staff object')
-
-    def __str__ (self):
-        return "Position = %s, Name = %s, Pay = %d" %(self._position, self.name, self.pay)
-
-    def calculatePay (self):
-        prompt = '\nEnter number of hours worked for %s: ' %(self.name)
-        hours = input (prompt)
-        prompt = 'Enter the hourly rate for %s: ' %(self.name)
-        hourlyRate = input (prompt)
-        self.pay = int (hours)*int (hourlyRate)
-        return self.pay
-
     @property
     def position (self):
         print ("Getter Method")
@@ -65,29 +45,21 @@ class Staff:
             self._position = value
         else:
             print ('position is invalid. No changes made.')
-
+```
+A child of the Staff class inherits all the variables and methods in that class and adds some of its own. 
+```Python
 class ManagementStaff (Staff):
 
     def __init__(self, pName, pPay, pAllowance, pBonus):
         super ().__init__('Manager', pName, pPay)
         self.allowance = pAllowance
         self.bonus = pBonus
-
+```
+It can also override parts of the parent class with its own methods.  
+```Python
     def calculatePay (self):
         basicPay = super ().calculatePay ()
         self.pay = basicPay + self.allowance 
         return self.pay
-
-    def calculatePerfBonus (self):
-        prompt = 'Enter performance grade for %s:' %(self.name)
-        grade = input (prompt)
-        if (grade == 'A'):
-            self.bonus = 1000
-        else:
-            self.bonus = 0
-        return self.bonus
-
-class BasicStaff (Staff):
-    def __init__(self, pName, pPay):
-        super ().__init__('Basic', pName, pPay)
-```        
+```
+That's the end of the demo. If reading the code above was not easy, I recommend getting the book. It takes you through each line of code and explains how it works in detail. This is a stripped down version of what you will find there. 
