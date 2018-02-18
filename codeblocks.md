@@ -6,7 +6,7 @@ Here's a demo of how inheritance works in Python. It's taken from the book [Lear
 
 First, let's create the parent class. You'll also hear this called a super class, or base class: 
 
-```
+```Python
 class Staff:
     def __init__ (self, pPosition, pName, pPay):
         self._position = pPosition
