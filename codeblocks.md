@@ -15,7 +15,22 @@ class Staff:
         self.pay = pPay
         print ('Creating Staff object')
 ```
-The __init__ method initializes the instance variables \_position, name and pay.  
+The __init__ method initializes the instance variables \_position, name and pay. 
+
+The following methods also belong to the Staff class. __str__ is a special method used to return a string that represents the class. The calculatePay method makes use of some instance variables common to the class (prefixed by self.) It also uses local variables. 
+
+```Python
+    def __str__ (self):
+        return "Position = %s, Name = %s, Pay = %d" %(self._position, self.name, self.pay)
+
+    def calculatePay (self):
+        prompt = '\nEnter number of hours worked for %s: ' %(self.name)
+        hours = input (prompt)
+        prompt = 'Enter the hourly rate for %s: ' %(self.name)
+        hourlyRate = input (prompt)
+        self.pay = int (hours)*int (hourlyRate)
+        return self.pay
+```        
 
 
 The finished program looks like this:
